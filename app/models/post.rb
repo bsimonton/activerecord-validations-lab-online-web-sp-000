@@ -10,7 +10,7 @@ validates :category, inclusion: { in: %w(Fiction Non-Fiction),
     message: "%{value} is not a valid category" }
   
   
-
+validates_with Validator
   
   
   
