@@ -1,1 +1,10 @@
-class Validator 
+class Validator < ActiveModel::Validator 
+  
+
+
+
+
+
+end 
+
+
